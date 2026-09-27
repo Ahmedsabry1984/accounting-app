@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>برنامج المحاسبة</title>
+
+<style>
+body {
+    font-family: Arial;
+    background: #f2f2f2;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background: #1f4e79;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+}
+
+button {
+    width: 90%;
+    max-width: 350px;
+    padding: 18px;
+    margin: 8px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    background: white;
+    box-shadow: 0 2px 6px #aaa;
+}
+
+button:active {
+    transform: scale(0.97);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>برنامج المحاسبة</h1>
+<p>نظام إدارة الحسابات</p>
+</header>
+
+<div class="container">
+
+<button onclick="sales()">🧾 المبيعات</button>
+<button onclick="purchases()">📦 المشتريات</button>
+<button onclick="expenses()">💰 المصروفات</button>
+<button onclick="customers()">👥 العملاء</button>
+<button onclick="suppliers()">🚚 الموردين</button>
+<button onclick="reports()">📊 التقارير</button>
+
+</div>
+
+<script>
+
+function sales() {
+    alert("قسم المبيعات");
+}
+
+function purchases() {
+    alert("قسم المشتريات");
+}
+
+function expenses() {
+    alert("قسم المصروفات");
+}
+
+function customers() {
+    alert("قسم العملاء");
+}
+
+function suppliers() {
+    alert("قسم الموردين");
+}
+
+function reports() {
+    alert("قسم التقارير");
+}
+
+</script>
+
+</body>
+</html>
