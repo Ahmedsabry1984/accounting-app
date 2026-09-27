@@ -35,8 +35,37 @@ button {
     box-shadow: 0 2px 6px #aaa;
 }
 
-button:active {
-    transform: scale(0.97);
+input {
+    width: 85%;
+    padding: 14px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+.invoice {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.total {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.back {
+    background: #777;
+    color: white;
+}
+
+.save {
+    background: #1f4e79;
+    color: white;
 }
 </style>
 </head>
@@ -48,44 +77,4 @@ button:active {
 <p>نظام إدارة الحسابات</p>
 </header>
 
-<div class="container">
-
-<button onclick="sales()">🧾 المبيعات</button>
-<button onclick="purchases()">📦 المشتريات</button>
-<button onclick="expenses()">💰 المصروفات</button>
-<button onclick="customers()">👥 العملاء</button>
-<button onclick="suppliers()">🚚 الموردين</button>
-<button onclick="reports()">📊 التقارير</button>
-
-</div>
-
-<script>
-
-function sales() {
-    alert("قسم المبيعات");
-}
-
-function purchases() {
-    alert("قسم المشتريات");
-}
-
-function expenses() {
-    alert("قسم المصروفات");
-}
-
-function customers() {
-    alert("قسم العملاء");
-}
-
-function suppliers() {
-    alert("قسم الموردين");
-}
-
-function reports() {
-    alert("قسم التقارير");
-}
-
-</script>
-
-</body>
-</html>
+<div id="home" class="
